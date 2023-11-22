@@ -31,6 +31,7 @@ import styles from "../../styles/sections/home/Banner.module.scss";
 // IMAGES //
 import BannerImg from "../../../public/img/home/banner.jpg";
 import Overlay from "../../../public/img/home/banner_layer.png";
+// import mobile_layer from "../../../public/img/home/mobile_layer.png";
 import Image from "next/image";
 
 /** Home Hero Section */
@@ -72,6 +73,10 @@ export default function Banner() {
 				src={Overlay.src}
 				className={`${styles.loader_img} fullwidthimg hidden-xs`}
 			/>
+			{/* <img
+				src={mobile_layer.src}
+				className={`${styles.loader_img} fullwidthimg visible-xs`}
+			/> */}
 			<img src={BannerImg.src} className={`${styles.banner_img} img-responsive`} />
 			<div className={`${styles.banner_info}`}>
 				<div className={`${styles.banner_title}`}>
