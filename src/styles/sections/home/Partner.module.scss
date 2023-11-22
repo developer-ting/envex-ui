@@ -36,7 +36,7 @@
         }
         .form{
             width: 50%;
-            padding: 20px 20px;
+            padding: 30px 30px;
             border-radius: 20px;
             border: 1px solid #b6b5c575;
             @media (max-width: 767px) {
@@ -50,7 +50,7 @@
                         border: 0;
                         opacity: 0.7;
                         font-size: 16px;
-                        margin-bottom: 40px;
+                        margin-bottom: 30px;
                         font-family: var(--n_e_l);
                         color: var(--color_white);
                         background-color: transparent;
@@ -90,7 +90,6 @@
                     input{
                         border: 0;
                         padding: 0;
-                        opacity: 0.7;
                         font-size: 18px;
                         padding-bottom: 5px;
                         margin-bottom: 0px;

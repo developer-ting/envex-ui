@@ -27,7 +27,7 @@
         .box{
             width: 40%;
             @media (max-width: 991px) {
-                width: 50%;
+                width: 100%;
             }
             @media (max-width: 767px) {
                 width: 100%;
@@ -38,7 +38,7 @@
                 padding-top: 10px;
                 position: relative;
                 @media (max-width: 991px) {
-                    width: 50%;
+                    width: 100%;
                 }
                 @media (max-width: 767px) {
                     width: 100%;

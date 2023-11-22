@@ -7,7 +7,10 @@
         display: flex;
         flex-wrap: wrap;
         position: relative;
-        @media (max-height: 700px) {
+        @media (max-height: 750px) {
+            padding-top: 20px;
+        }
+        @media (max-width: 991px) {
             padding-top: 40px;
         }
         @media (max-width: 767px) {
@@ -25,7 +28,7 @@
         .box{
             width: 40%;
             @media (max-width: 991px) {
-                width: 50%;
+                width: 100%;
             }
             @media (max-width: 767px) {
                 width: 100%;
@@ -35,7 +38,7 @@
                 padding-left: 40px;
                 padding-top: 10px;
                 @media (max-width: 991px) {
-                    width: 50%;
+                    width: 100%;
                 }
                 @media (max-width: 767px) {
                     width: 100%;

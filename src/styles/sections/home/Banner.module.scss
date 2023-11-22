@@ -94,6 +94,9 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         border: 0.5px solid #56605b3d;
+        @media (max-width: 991px) {
+            padding: 30px 30px 10px;
+        }
         h2{
             span{
                 color: var(--color_primary);
@@ -143,8 +146,16 @@
                 .span1{
                     font-size: 20px;
                     color: var(--color_white);
-                    font-family: var(--n_r); 
+                    font-family: var(--n_r_l); 
+                    @media (max-width: 991px) {
+                       font-size: 18px;
+                    }
                 }
+            }
+            p{
+                @media (max-width: 991px) {
+                       font-size: 18px;
+                    }
             }
         }
     }

@@ -33,13 +33,13 @@ export default function Comit() {
 							neutrality. Comit brings buyers and sellers to one platform, enabling
 							them to trade multiple environmental products in just a few taps.
 						</p>
-						<div className={`${styles.btn_section}`}>
+						{/* <div className={`${styles.btn_section}`}>
 							<p>
 								<a href="#" className="text_sm color_white">
 									DISCOVER MORE
 								</a>
 							</p>
-						</div>
+						</div> */}
 					</div>
 					<div className={`${styles.box}`}>
 						<img

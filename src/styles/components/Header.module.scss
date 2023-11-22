@@ -11,6 +11,9 @@
     height: 80px;
     @extend %f_r_aj_center;
     justify-content: space-between;
+    @media (max-width: 767px) {
+      height: 60px;
+    }
     .left_box{
       z-index: 2;
       position: relative;

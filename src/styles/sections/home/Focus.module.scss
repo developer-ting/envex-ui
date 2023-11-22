@@ -54,8 +54,8 @@
                     align-items: center;
                     justify-content: space-between; 
                     h5{
-                        color: #313133;
-                        font-family: var(--o_r);
+                        color: #3F3075;
+                        font-family: var(--n_s_b);
                     }
                     .pluse{
                         cursor: pointer;
@@ -64,10 +64,11 @@
                 p{
                     color: #313133;
                     padding-right: 100px;
+                    opacity: 0.7;
                 }
                 span{
                     color: #313133;
-                    font-family: var(--n_e_l);
+                    font-family: var(--n_r);
                 }
             }
         }

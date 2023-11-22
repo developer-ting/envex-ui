@@ -99,28 +99,28 @@ export default function Banner() {
 							<CountUp end={40000} />
 							<span className={`${styles.span1}`}> MtCO2e</span>
 						</h2>
-						<p className="text_md color_white">Emissions Uncovered</p>
+						<p className="text_reg color_white">Emissions Uncovered</p>
 					</div>
 					<div className={`${styles.counter_box}`}>
 						<h2 className="text_xxl">
 							<CountUp end={48000} />
 							<span className={`${styles.span1}`}> MtCO2e</span>
 						</h2>
-						<p className="text_md color_white">Total Emissions</p>
+						<p className="text_reg color_white">Total Emissions</p>
 					</div>
 					<div className={`${styles.counter_box}`}>
 						<h2 className="text_xxl">
 							<CountUp end={7700} />
 							<span className={`${styles.span1}`}> MtCO2e</span>
 						</h2>
-						<p className="text_md color_white">Offsets – Compliance & Taxes</p>
+						<p className="text_reg color_white">Offsets – Compliance & Taxes</p>
 					</div>
 					<div className={`${styles.counter_box}`}>
 						<h2 className="text_xxl">
 							<CountUp end={95} />
 							<span className={`${styles.span1}`}> MtCO2e</span>
 						</h2>
-						<p className="text_md color_white">Offsets – Voluntary</p>
+						<p className="text_reg color_white">Offsets – Voluntary</p>
 					</div>
 				</div>
 				<div className={`${styles.counter_section_mobile} text_center visible-xs`}>
