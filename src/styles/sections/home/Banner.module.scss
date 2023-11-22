@@ -44,6 +44,7 @@
             h1{
                 display: flex;
                 flex-wrap: wrap;
+                font-family: var(--o_r);
                 @media (max-width: 767px) {
                     text-align: left;
                     font-size: 25px;
@@ -61,6 +62,7 @@
                 .banner_animaction{
                     width: 400px;
                     padding-left: 15px;
+                    font-family: var(--o_e_b);
                     @media (max-width: 991px) {
                         width: 250px;
                     }
@@ -99,6 +101,7 @@
             .span1{
                 font-size: 20px;
                 color: var(--color_white);
+                
             }
         }
     }
@@ -140,6 +143,7 @@
                 .span1{
                     font-size: 20px;
                     color: var(--color_white);
+                    font-family: var(--n_r);
                 }
             }
         }
