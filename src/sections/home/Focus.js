@@ -26,11 +26,10 @@ import styles from "../../styles/sections/home/Focus.module.scss";
 import ArrowSliderRight from "../../../public/img/home/arrow_slider_right.svg";
 import FocusIcon1 from "../../../public/img/home/focus_icon_1.png";
 import Pluse from "../../../public/img/home/focus_pluse.svg";
-// import FirstIcon1 from "../../../public/img/home/first_icon_1.jpg";
-import FirstIcon2 from "../../../public/img/home/first_icon_2.jpg";
-// import FirstIcon3 from "../../../public/img/home/first_icon_3.jpg";
-//import FirstIcon3 from "../../../public/img/home/Vishwajit_Dahanukar.png";
-// import FirstIcon4 from "../../../public/img/home/first_icon_4.jpg";
+import FirstIcon1 from "../../../public/img/home/first_icon_1_new.jpg";
+import FirstIcon2 from "../../../public/img/home/first_icon_2_new.jpg";
+import FirstIcon3 from "../../../public/img/home/first_icon_3_new.jpg";
+import FirstIcon4 from "../../../public/img/home/first_icon_4_new.jpg";
 
 /** Home Hero Section */
 export default function Focus() {
@@ -64,22 +63,22 @@ export default function Focus() {
 		setProgressWidth((currInd / 3) * 100);
 	};
 	const images = [
-		// {
-		// 	src: FirstIcon1.src,
-		// 	thumb: FirstIcon1.src,
-		// },
+		{
+			src: FirstIcon1.src,
+			thumb: FirstIcon1.src,
+		},
 		{
 			src: FirstIcon2.src,
 			thumb: FirstIcon2.src,
 		},
-		// {
-		// 	src: FirstIcon3.src,
-		// 	thumb: FirstIcon3.src,
-		// },
-		// {
-		// 	src: FirstIcon4.src,
-		// 	thumb: FirstIcon4.src,
-		// },
+		{
+			src: FirstIcon3.src,
+			thumb: FirstIcon3.src,
+		},
+		{
+			src: FirstIcon4.src,
+			thumb: FirstIcon4.src,
+		},
 	];
 	return (
 		<div className={`${styles.focuse_section} pb_100`} name="event">
