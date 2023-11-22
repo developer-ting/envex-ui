@@ -39,6 +39,12 @@ const Header = () => {
 		setIsOpen(!isOpen);
 	};
 
+	const handleClick = () => {
+		setSidebarActive(!sidebarActive);
+		toggleMenu();
+		handleButtonClick();
+	};
+
 	const [sidebarActive, setSidebarActive] = useState(false);
 	let scroll = Scroll.animateScroll;
 
@@ -55,7 +61,7 @@ const Header = () => {
 						<ul>
 							<li>
 								<ScrollSection
-									onClick={() => setSidebarActive(!sidebarActive)}
+									onClick={handleClick}
 									activeClass="active"
 									to="about_us"
 									spy={true}
@@ -69,7 +75,7 @@ const Header = () => {
 							</li>
 							<li>
 								<ScrollSection
-									onClick={() => setSidebarActive(!sidebarActive)}
+									onClick={handleClick}
 									activeClass="active"
 									to="ace"
 									spy={true}
@@ -83,7 +89,7 @@ const Header = () => {
 							</li>
 							<li>
 								<ScrollSection
-									onClick={() => setSidebarActive(!sidebarActive)}
+									onClick={handleClick}
 									activeClass="active"
 									to="comit"
 									spy={true}
@@ -97,7 +103,7 @@ const Header = () => {
 							</li>
 							<li>
 								<ScrollSection
-									onClick={() => setSidebarActive(!sidebarActive)}
+									onClick={handleClick}
 									activeClass="active"
 									to="usps"
 									spy={true}
@@ -111,7 +117,7 @@ const Header = () => {
 							</li>
 							<li>
 								<ScrollSection
-									onClick={() => setSidebarActive(!sidebarActive)}
+									onClick={handleClick}
 									activeClass="active"
 									to="event"
 									spy={true}
@@ -125,7 +131,7 @@ const Header = () => {
 							</li>
 							<li>
 								<ScrollSection
-									onClick={() => setSidebarActive(!sidebarActive)}
+									onClick={handleClick}
 									activeClass="active"
 									to="contact"
 									spy={true}
