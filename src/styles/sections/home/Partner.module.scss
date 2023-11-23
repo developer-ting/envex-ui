@@ -55,6 +55,7 @@
                         color: var(--color_white);
                         background-color: transparent;
                         border-bottom: 1px solid #b6b5c575;
+                        border-radius: 0;
                         &:focus{
                             outline: none;
                         }
@@ -98,6 +99,7 @@
                         cursor: pointer;
                         background-color: transparent;
                         border-bottom: 2px solid #A8CA9A;
+                        border-radius: 0;
                         &:focus{
                             outline: none;
                         }
