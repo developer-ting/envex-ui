@@ -144,7 +144,7 @@
                     color: var(--color_primary);
                 }
                 .span1{
-                    font-size: 20px;
+                    font-size: 18px;
                     color: var(--color_white);
                     font-family: var(--n_r); 
                     font-weight: normal;
@@ -154,6 +154,7 @@
                 }
             }
             p{
+                font-size: 18px;
                 @media (max-width: 991px) {
                        font-size: 18px;
                     }

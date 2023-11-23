@@ -163,13 +163,8 @@ export default function WhoWeAre() {
 									<h6 className="text_md pt_10">Director</h6>
 									
 									<p className="pt_30">
-										With a degree in Chemistry and a diploma in Business Management Pravin
-										started his journey in the International Commodity Markets as a junior
-										trader 1986 with Marpro an International Commodity Broking firm. After
-										short stints in Thailand and Australia trading commodities he returned
-										to India as an entrepreneur successfully establishing one of the largest
-										broking outfits in the country. Pravin currently runs a family office and
-										follows both the financial and commodity markets.
+										Pravin ka content change karo
+										With a Chemistry degree and Business Management diploma, Pravin began in the International Commodity Markets as a junior trader in 1986 with Marpro. After brief trading stints in Thailand and Australia, he returned to India, establishing one of the country's largest broking outfits. In 2004, Pravin orchestrated a team buyout by Glencore, the world's largest commodity company, becoming the founding CEO and rapidly building a dominant multibillion-dollar Agri commodity business in India. Presently, he manages a family office, staying active in both financial and commodity markets.
 									</p>
 									
 								</div>

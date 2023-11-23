@@ -40,7 +40,7 @@ export default function What() {
 					<div className={`${styles.box}`}>
 						<img src={WhatIcon5.src} className="img-responsive pb_20" />
 						<p>
-							We ensure you get all the Information you need on the emission impact of
+							We ensure you get all the information you need on the emission impact of
 							your purchase.
 						</p>
 					</div>
