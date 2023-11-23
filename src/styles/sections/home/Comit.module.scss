@@ -4,9 +4,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     // background-image: url(../../../../public/img/home/comit_bg.jpg);
-    background-color: #2c2e35;
+    // background-color: #2c2e35;
+    background-color: #3f3075;
     @media (max-width: 767px) {
         // padding-top: 50px;
+    }
+
+    .ComitLogo{
+        filter: brightness(10);
     }
     .business{
         min-height: 100vh;

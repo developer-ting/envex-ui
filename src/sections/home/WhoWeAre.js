@@ -97,7 +97,7 @@ export default function WhoWeAre() {
 				});
 			});
 
-			setActiveTab(0);
+			// setActiveTab(0);
 		});
 	}, [targetName]);
 
@@ -139,7 +139,7 @@ export default function WhoWeAre() {
 								</div>
 								<div className={`${styles.text}`}>
 									<h4 className="text_lg f_w_b color_secondary">Vishwajit Dahanukar <img src={Linkedin.src} className="img-responsive" /></h4>
-									<h6 className="text_md pt_10">Director</h6>
+									<h6 className="text_md pt_10">Founder & Director</h6>
 									
 									<p className="pt_30">
 									A serial entrepreneur with a deep passion for renewables and carbon
@@ -202,13 +202,13 @@ export default function WhoWeAre() {
 				<div className="main_tab_row">
 					<div className="custom_tab">
 						<div className="tab_titles">
-							<div className="tab_title">ENVEX</div>
+							<div className="tab_title active">ENVEX</div>
 							<div className="tab_title">ACX - Our Partner</div>
 							<div className="tab_title">Board Of Directors</div>
 						</div>
 					</div>
 
-					<div className="tab_content">
+					<div className="tab_content show">
 						<div className={`${styles.who_we_are_box}`}>
 							<div className={`${styles.who_we_are_info}`}>
 								<img src={envex.src} className="img-responsive b_r_20" />
