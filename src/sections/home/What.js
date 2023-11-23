@@ -28,15 +28,13 @@ export default function What() {
 					<div className={`${styles.box}`}>
 						<img src={WhatIcon1.src} className="img-responsive pb_20" />
 						<p>
-							We have access to the quality, traceability and reliability Information
-							about support projects.
+						We have access to the quality, traceability and reliability on projects.
 						</p>
 					</div>
 					<div className={`${styles.box}`}>
 						<img src={WhatIcon2.src} className="img-responsive pb_20" />
 						<p>
-							We offer transparent and fair carbon trading so more people feel
-							encouraged to take the step to reduce their carbon footprint.
+						We offer transparent and fair carbon pricing so more people feel encouraged to take the step to reduce their carbon footprint.
 						</p>
 					</div>
 					<div className={`${styles.box}`}>
@@ -49,8 +47,7 @@ export default function What() {
 					<div className={`${styles.box}`}>
 						<img src={WhatIcon4.src} className="img-responsive pb_20" />
 						<p>
-							You can rely on us to possess the important awareness on the efficacy of
-							carbon offsets.
+							You can rely on us to possess important awareness on the efficacy of carbon offsets.
 						</p>
 					</div>
 					<div className={`${styles.box}`}>
@@ -63,8 +60,7 @@ export default function What() {
 					<div className={`${styles.box}`}>
 						<img src={WhatIcon6.src} className="img-responsive pb_20" />
 						<p>
-							The ease of offsetting process makes it more accessible to different
-							organisations and individuals.
+							The ease of the offsetting process makes it more accessible to different organisations and individuals.
 						</p>
 					</div>
 				</div>

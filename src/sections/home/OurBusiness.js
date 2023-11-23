@@ -26,13 +26,7 @@ export default function OurBusiness() {
 						{/* <div className={`${styles.title} section_title`}>Our business</div> */}
 						<h4 className="pt_20 pb_20 text_lg">ACX-ENVEX Partnership</h4>
 						<p className="pb_30">
-							By understanding India’s evolving ESG scenario and to pave the way
-							towards its international targets, we have partnered with ACX - a global
-							environmental financial products platform, that enables the establishment
-							of local environmental product trading platforms with access to its
-							global liquidity pool in one connected order book. Through this
-							partnership, we aim to facilitate India’s commitment towards a net zero
-							economy.
+							By understanding India’s evolving ESG scenario and to pave the way towards meeting international targets, we have partnered with ACX - a global environmental financial products platform, that enables the establishment of local environmental product trading platforms with access to its global liquidity pool in one connected order book. Through this partnership, we aim to facilitate India’s commitment towards a net zero economy.
 						</p>
 						<ul>
 							<li>
