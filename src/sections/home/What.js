@@ -32,19 +32,6 @@ export default function What() {
 						</p>
 					</div>
 					<div className={`${styles.box}`}>
-						<img src={WhatIcon2.src} className="img-responsive pb_20" />
-						<p>
-						We offer transparent and fair carbon pricing so more people feel encouraged to take the step to reduce their carbon footprint.
-						</p>
-					</div>
-					<div className={`${styles.box}`}>
-						<img src={WhatIcon3.src} className="img-responsive pb_20" />
-						<p>
-							Our price to offset is best in class, empowering more and more
-							organisations of all sizes to start their journey to net zero.
-						</p>
-					</div>
-					<div className={`${styles.box}`}>
 						<img src={WhatIcon4.src} className="img-responsive pb_20" />
 						<p>
 							You can rely on us to possess important awareness on the efficacy of carbon offsets.
@@ -57,6 +44,20 @@ export default function What() {
 							your purchase.
 						</p>
 					</div>
+					<div className={`${styles.box}`}>
+						<img src={WhatIcon2.src} className="img-responsive pb_20" />
+						<p>
+						We offer transparent and fair carbon pricing so more people feel encouraged to take the step to reduce their carbon footprint.
+						</p>
+					</div>
+					<div className={`${styles.box}`}>
+						<img src={WhatIcon3.src} className="img-responsive pb_20" />
+						<p>
+							Our price to offset is best in class, empowering more and more
+							organisations of all sizes to start their journey to net zero.
+						</p>
+					</div>
+					
 					<div className={`${styles.box}`}>
 						<img src={WhatIcon6.src} className="img-responsive pb_20" />
 						<p>
