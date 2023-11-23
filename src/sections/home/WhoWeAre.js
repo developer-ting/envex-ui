@@ -160,7 +160,7 @@ export default function WhoWeAre() {
 								</div>
 								<div className={`${styles.text}`}>
 									<h4 className="text_lg f_w_b color_secondary">Pravin Dongre <img src={Linkedin.src} className="img-responsive" /></h4>
-									<h6 className="text_md pt_10">Directors</h6>
+									<h6 className="text_md pt_10">Director</h6>
 									
 									<p className="pt_30">
 										With a degree in Chemistry and a diploma in Business Management Pravin
@@ -183,7 +183,7 @@ export default function WhoWeAre() {
 								</div>
 								<div className={`${styles.text}`}>
 									<h4 className="text_lg f_w_b color_secondary">Aditya Sapru <img src={Linkedin.src} className="img-responsive " /></h4>
-									<h6 className="text_md pt_10">Directors</h6>
+									<h6 className="text_md pt_10">Director</h6>
 									
 									<p className="pt_30">
 									30+ years in business strategy with a strong focus on execution. He has
