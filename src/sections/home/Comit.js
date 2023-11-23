@@ -27,7 +27,7 @@ export default function Comit() {
 							Our business
 						</div> */}
 						{/* <h4 className="pt_30 pb_20 text_lg color_white">Comit</h4> */}
-						<img src={ComitLogo.src} className={`${styles.ComitLogo} img-responsive pb_20`} />
+						<img src={ComitLogo.src} className={`${styles.ComitLogo} img-responsive pb_30`} />
 						<p className="color_white">
 						An app for everyone, no matter where they are in their journey to carbon neutrality. Comit brings carbon footprint offsetters to our platform, enabling them to trade multiple environmental products with ease in the most cost effective manner.
 						</p>

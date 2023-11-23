@@ -71,15 +71,15 @@
                         width: 300px;
                     }
                     @media (max-width: 767px) {
-                        width: 100%;
+                        // width: 100%;
                         padding-left: 0px;
                     }
                     .span{
                         overflow: hidden;
                     }
-                    @media (max-width: 767px) {
-                        margin-top: 10px;
-                    }
+                    // @media (max-width: 767px) {
+                    //     margin-top: 10px;
+                    // }
                 }
                 .span2{
                     width: 100%;
