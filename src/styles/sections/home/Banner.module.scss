@@ -146,7 +146,8 @@
                 .span1{
                     font-size: 20px;
                     color: var(--color_white);
-                    font-family: var(--n_r_l); 
+                    font-family: var(--n_r); 
+                    font-weight: normal;
                     @media (max-width: 991px) {
                        font-size: 18px;
                     }
