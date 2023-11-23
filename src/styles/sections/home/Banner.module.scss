@@ -5,8 +5,8 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    @media (max-width: 767px) {
-        height: 95vh;
+    @media (max-width: 991px) {
+        height: 93vh;
         
     }
     .loader_img{
@@ -152,6 +152,9 @@
                     color: var(--color_white);
                     font-family: var(--n_r); 
                     font-weight: normal;
+                    @media (min-width: 768px) and (max-width: 991px) {
+                        display: block;
+                    }
                     @media (max-width: 991px) {
                        font-size: 18px;
                     }
@@ -159,6 +162,9 @@
             }
             p{
                 font-size: 18px;
+                @media (min-width: 768px) and (max-width: 991px) {
+                    padding-top: 10px;
+                }
                 @media (max-width: 991px) {
                        font-size: 18px;
                     }
@@ -170,6 +176,9 @@
             z-index: 1;
             opacity: 1;
             transform: translate(-50%,-50%) scale(15);
+            @media (max-width: 767px) {
+                transform: translate(-50%,-50%) scale(25);
+            }
         }
         .banner_title{
             opacity: 1;
