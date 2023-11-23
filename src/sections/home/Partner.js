@@ -86,7 +86,7 @@ export default function Partner() {
 										type="text"
 										placeholder="Full Name"
 										name="Name"
-										pattern="[A-Za-z]+"
+										pattern="[A-Za-z ]+"
 										title="letters only"
 										required
 									/>
