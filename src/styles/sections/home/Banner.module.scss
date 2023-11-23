@@ -5,6 +5,10 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+    @media (max-width: 767px) {
+        height: 95vh;
+        
+    }
     .loader_img{
         top: 50%;
         left: 50%;

@@ -95,28 +95,28 @@ export default function Banner() {
 				</div>
 				<div className={`${styles.counter_section} text_center hidden-xs`}>
 					<div className={`${styles.counter_box}`}>
-						<h2 className="text_xxl">
+						<h2 className="text_xl">
 							<CountUp end={40000} />
 							<span className={`${styles.span1}`}> MtCO2e</span>
 						</h2>
 						<p className="text_reg color_white">Emissions Uncovered</p>
 					</div>
 					<div className={`${styles.counter_box}`}>
-						<h2 className="text_xxl">
+						<h2 className="text_xl">
 							<CountUp end={48000} />
 							<span className={`${styles.span1}`}> MtCO2e</span>
 						</h2>
 						<p className="text_reg color_white">Total Emissions</p>
 					</div>
 					<div className={`${styles.counter_box}`}>
-						<h2 className="text_xxl">
+						<h2 className="text_xl">
 							<CountUp end={7700} />
 							<span className={`${styles.span1}`}> MtCO2e</span>
 						</h2>
 						<p className="text_reg color_white">Offsets – Compliance & Taxes</p>
 					</div>
 					<div className={`${styles.counter_box}`}>
-						<h2 className="text_xxl">
+						<h2 className="text_xl">
 							<CountUp end={95} />
 							<span className={`${styles.span1}`}> MtCO2e</span>
 						</h2>
@@ -126,28 +126,28 @@ export default function Banner() {
 				<div className={`${styles.counter_section_mobile} text_center visible-xs`}>
 					<Slider {...settings} className="visible-xs">
 						<div className={`${styles.counter_box}`}>
-							<h2 className="text_xxl">
+							<h2 className="text_xl">
 								<CountUp end={40000} />
 								<span className={`${styles.span1}`}> MtCO2e</span>
 							</h2>
 							<p className="text_md color_white">Emissions Uncovered</p>
 						</div>
 						<div className={`${styles.counter_box}`}>
-							<h2 className="text_xxl">
+							<h2 className="text_xl">
 								<CountUp end={48000} />
 								<span className={`${styles.span1}`}> MtCO2e</span>
 							</h2>
 							<p className="text_md color_white">Total Emissions</p>
 						</div>
 						<div className={`${styles.counter_box}`}>
-							<h2 className="text_xxl">
+							<h2 className="text_xl">
 								<CountUp end={7700} />
 								<span className={`${styles.span1}`}> MtCO2e</span>
 							</h2>
 							<p className="text_md color_white">Offsets – Compliance & Taxes</p>
 						</div>
 						<div className={`${styles.counter_box}`}>
-							<h2 className="text_xxl">
+							<h2 className="text_xl">
 								<CountUp end={95} />
 								<span className={`${styles.span1}`}> MtCO2e</span>
 							</h2>

@@ -139,7 +139,7 @@ export default function WhoWeAre() {
 								</div>
 								<div className={`${styles.text}`}>
 									<h4 className="text_lg f_w_b color_secondary">Vishwajit Dahanukar <img src={Linkedin.src} className="img-responsive" /></h4>
-									<h6 className="text_md pt_10">Founder & Managing Partner</h6>
+									<h6 className="text_md pt_10">Director</h6>
 									
 									<p className="pt_30">
 									A serial entrepreneur with a deep passion for renewables and carbon
