@@ -40,12 +40,13 @@
             &:last-child{
                 width: 60%;
                 padding-left: 40px;
-                padding-top: 10px;
+                padding-top: 25px;
                 @media (max-width: 991px) {
                     width: 100%;
                 }
                 @media (max-width: 767px) {
                     width: 100%;
+                    padding-top: 10px;
                     padding-left: 0;
                 }
             }
